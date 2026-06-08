@@ -10,7 +10,7 @@ def build_sample_graph() -> IdentityGraph:
     graph = IdentityGraph()
 
     # Users
-    graph.add_node("priya", NodeType.USER, {"name": "Priya Sharma", "business_unit": "Finance"})
+    graph.add_node("rafi", NodeType.USER, {"name": "Rafi Khan", "business_unit": "Finance"})
     graph.add_node("devin", NodeType.USER, {"name": "Devin Lee", "business_unit": "Cloud Ops"})
 
     # Roles
@@ -33,7 +33,7 @@ def build_sample_graph() -> IdentityGraph:
     graph.add_node("deploy_infrastructure", NodeType.PRIVILEGE, {"description": "Deploy infrastructure"})
 
     # Relationships
-    graph.add_edge("priya", "finance_dept", "member-of")
+    graph.add_edge("rafi", "finance_dept", "member-of")
     graph.add_edge("finance_dept", "finance_admin", "grants-role")
     graph.add_edge("finance_admin", "sap", "access-to")
     graph.add_edge("finance_admin", "workday", "access-to")
