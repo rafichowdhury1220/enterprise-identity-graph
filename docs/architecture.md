@@ -11,7 +11,7 @@ Enterprises need a single lens over identity relationships across users, groups,
 - **Modularity**: separate model, graph traversal, and risk scoring so each layer can be extended independently.
 - **Domain-driven structure**: identify business entities such as `User`, `Role`, `Group`, `Application`, and `Privilege` explicitly.
 - **Readability**: use simple Python dataclasses and clear method names so the code is accessible to reviewers.
-- **Analyst-friendly output**: include summary and recommendation text that mirrors what an IAM analyst or security architect would present.
+- **Output**: include summary and recommendation text that mirrors what an IAM analyst or security architect would present.
 
 ## Component overview
 
@@ -32,7 +32,7 @@ Enterprises need a single lens over identity relationships across users, groups,
 
 1. Add a connector layer for HR systems, Active Directory, and SaaS entitlement APIs.
 2. Replace the in-memory graph with a persisted graph store like Neo4j or Amazon Neptune.
-3. Add a service API and visualization layer for enterprise dashboards.
+3. Add a service API and visualisation layer for enterprise dashboards.
 4. Add governance signals such as stale access age, last login, and policy compliance status.
 
 
