@@ -1,6 +1,6 @@
 # Enterprise Identity Graph
 
-A Python project that models identity relationships across users, roles, groups, applications, and privileges. This repository is designed to showcase both the solution architect mindset and the hands-on IAM engineering work needed to turn identity graph concepts into a recruiter-friendly portfolio piece.
+A Python project that models identity relationships across users, roles, groups, applications, and privileges. 
 
 ## Why this project exists
 
@@ -9,7 +9,6 @@ Large organizations have identity relationships spread across HR systems, Active
 This project demonstrates:
 - **Architecture thinking**: modular design, clear separation between data model, graph analysis, and risk scoring
 - **IAM engineering**: identity graph construction, privilege escalation detection, over-privilege analysis
-- **Recruiter appeal**: business problem framing, technical design, sample output, and next-step recommendations
 
 ## What the project does
 
@@ -39,7 +38,6 @@ A solution architect writes this project with the following priorities:
 1. **Problem-first design**: start from the real enterprise problem of scattered identity sources and privilege paths.
 2. **Clear abstractions**: separate nodes, edges, graph traversal, and risk scoring so each module can evolve independently.
 3. **Scalable pattern**: design the code so it can later ingest CSV, APIs, or graph databases without changing core analysis.
-4. **Recruiter storytelling**: include a README that explains the business value, technical approach, and next steps.
 
 ## Next evolution ideas
 
