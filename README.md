@@ -4,7 +4,7 @@ A Python project that models identity relationships across users, roles, groups,
 
 ## Why this project exists
 
-Large organizations have identity relationships spread across HR systems, Active Directory, cloud accounts, SaaS apps, and IAM platforms. No single source of truth gives a full picture of who can access what and how privilege escalation paths are formed.
+Large organisations have identity relationships spread across HR systems, Active Directory, cloud accounts, SaaS apps, and IAM platforms. No single source of truth provides a complete picture of who can access what and how privilege escalation paths form.
 
 This project demonstrates:
 - **Architecture thinking**: modular design, clear separation between data model, graph analysis, and risk scoring
